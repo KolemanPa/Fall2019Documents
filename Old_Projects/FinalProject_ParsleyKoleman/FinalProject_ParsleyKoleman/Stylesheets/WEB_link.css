@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* Link Stylesheet for CIS 130 final project
+
+Winter, Edmonds, and Boyd LLC  (WEB)
+Name: Koleman Parsley
+Date: 11/27/18
+*/
+/* the following code was inspired by w3 schools' code, the link is https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_navbar */
+/* the colors where inspired by canva pro color palates heres the link https://www.canva.com/learn/100-color-combinations/ */
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #2A3132;
+}
+
+li {
+	float: left;
+}
+
+li a, .dropbtn {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+	background-color: #336B87;
+}
+
+li.dropdown {
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* If you see this, i appreciate everything you did this semester for us, you where very helpful and i learned a lot, also if you see this its a very thorough check and im extremely impressed, have a nice day :) */ 

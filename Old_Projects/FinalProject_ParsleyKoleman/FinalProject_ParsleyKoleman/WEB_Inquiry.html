@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!-- Submit Inquiry page for CIS 130 final project
+Winter, Edmonds, and Boyd LLC  (WEB)
+Name: Koleman Parsley
+Date: 12/02/18
+-->
+   <meta charset="utf-8" />
+<title>Submit an Inquiry</title>
+<link href="Stylesheets/WEB_mainStyles.css" rel="stylesheet" />
+<link href="Stylesheets/WEB_link.css" rel="stylesheet" />
+</head>
+<body>
+   <header>
+   		<img src="images/WEB_img3.png" alt="home" usemap="#image-map">
+		<map name="image-map">
+			<area shape="rect" coords="0,1,1103,265" href="WEB_home.html" alt="Home">
+				</map>
+		<ul>
+		    <li><a href="WEB_home.html" id="main">Main Page</a></li>
+			<li class="dropdown">
+				<a href="WEB_AboutUs.html" class="dropbtn">About Us</a>
+				<div class="dropdown-content">
+					<a href="WEB_partners.html">Managing Partners</a>
+					<a href="WEB_history.html">Company History</a>
+					<a href="WEB_involvement.html">Community Involvement</a>
+					</div>
+				</li>
+            <li><a href="WEB_Services.html">Services</a></li>
+				<li class="dropdown">
+				<a href="WEB_Contact.html" class="dropbtn">Contact</a>
+				<div class="dropdown-content">
+					<a href="WEB_inquiry.html">Submit an inquiry</a>
+				</div>
+			</li>
+		</ul>
+   </header>
+   <section>
+   <!-- Form to submit contact info -->
+	<h1>Contact Info</h1>
+	<p>Required Item (*)</p>
+	<form action="http://www.tipjar.com/cgi-bin/test" autocomplete="on" method="post" name="inquiryform">
+	<label for="name"><b>Name*</b></label>
+		<input name="Names" id="name" type="text" required>
+		
+	<label for="address1"><b>Address Line 1</b></label>
+		<input name="addressLine1" id="address1" type="text">
+		
+	<label for="address2"><b>Address Line 2</b></label>
+		<input name="addressLine2" id="address2" type="text">
+		
+	<label for="city"><b>City</b></label>
+		<input name="AddCity" id="city" type="text">
+	
+	<label for="zip"><b>Zip-Code</b></label>
+		<input name="ZipCode" id="zip" type="number">
+		
+	<label for="Phone"><b>Phone Number*</b></label>
+		<input name="PhoneNumber" id="Phone" type="tel">
+		
+	  <label for="email"><b>E-mail*</b></label>
+		<input name="mailBox" id="email" type="email" required>
+
+		<div id="buttons">
+			<input type="submit" value="Submit" />
+		</div>
+
+	</form>
+	</section>
+
+<footer>
+<!-- Footer -->
+<p>Created by Koleman Parsley, CIS-130-SP18 <a href="https://twitter.com/BarackObama?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @BarackObama</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+</footer>
+</body>
+</html>

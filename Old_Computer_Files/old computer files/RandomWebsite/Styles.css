@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* Background Color */
+html {
+	background-color: rgb(153, 235, 255);
+}
+/* Body color and format */
+body {
+	color: black;
+	background-color: white;
+	margin: auto;
+	width: 100%;
+	max-width: 1020px;
+	min-width: 640px;
+}
+/* Navigating tabs design */
+nav {
+	display: table;
+	width: 100%;
+}
+
+nav > ul {
+	display: table-row;
+}
+
+nav > ul > li {
+	display: table-cell;
+	text-align: center;
+}
+
+nav > ul > li > a {
+	display: block;
+	font-size: 2em;
+	text-decoration: none;
+	color: white;
+	background-color: blue;
+}
+/* Header img format */
+body > img {
+	width: 100%;
+}
+
+body > header > img {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}

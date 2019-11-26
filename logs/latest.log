@@ -1,0 +1,146 @@
+[23:22:47] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[23:22:47] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[23:22:47] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[23:22:47] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[23:22:47] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[23:22:47] [Server thread/INFO]: Starting minecraft server version 1.14.4
+[23:22:47] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+[23:22:47] [Server thread/INFO]: Loading properties
+[23:22:47] [Server thread/INFO]: Default game type: SURVIVAL
+[23:22:47] [Server thread/INFO]: Generating keypair
+[23:22:47] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: The handle is invalid
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_221]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_221]
+	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_221]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_221]
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_221]
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_221]
+	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_221]
+	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_221]
+	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_221]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_221]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_221]
+	at uk$2.run(SourceFile:109) [server.jar:?]
+[23:22:48] [Server thread/INFO]: Starting Minecraft server on *:25565
+[23:22:48] [Server thread/INFO]: Using default channel type
+[23:22:49] [Server thread/INFO]: Preparing level "world"
+[23:22:49] [Server thread/INFO]: Found new data pack vanilla, loading it automatically
+[23:22:49] [Server thread/INFO]: Reloading ResourceManager: Default
+[23:22:50] [Server thread/INFO]: Loaded 6 recipes
+[23:22:51] [Server thread/INFO]: Loaded 811 advancements
+[23:23:06] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[23:23:06] [Server-Worker-3/INFO]: Preparing spawn area: 0%
+[23:23:06] [Server-Worker-4/INFO]: Preparing spawn area: 0%
+[23:23:07] [Server-Worker-6/INFO]: Preparing spawn area: 1%
+[23:23:08] [Server-Worker-1/INFO]: Preparing spawn area: 2%
+[23:23:08] [Server-Worker-4/INFO]: Preparing spawn area: 2%
+[23:23:08] [Server-Worker-2/INFO]: Preparing spawn area: 2%
+[23:23:09] [Server-Worker-2/INFO]: Preparing spawn area: 2%
+[23:23:09] [Server-Worker-1/INFO]: Preparing spawn area: 4%
+[23:23:10] [Server-Worker-5/INFO]: Preparing spawn area: 5%
+[23:23:10] [Server-Worker-6/INFO]: Preparing spawn area: 5%
+[23:23:11] [Server-Worker-1/INFO]: Preparing spawn area: 5%
+[23:23:11] [Server-Worker-4/INFO]: Preparing spawn area: 6%
+[23:23:12] [Server-Worker-2/INFO]: Preparing spawn area: 9%
+[23:23:12] [Server-Worker-7/INFO]: Preparing spawn area: 9%
+[23:23:13] [Server-Worker-1/INFO]: Preparing spawn area: 9%
+[23:23:13] [Server-Worker-1/INFO]: Preparing spawn area: 9%
+[23:23:14] [Server-Worker-4/INFO]: Preparing spawn area: 9%
+[23:23:14] [Server-Worker-1/INFO]: Preparing spawn area: 15%
+[23:23:15] [Server-Worker-2/INFO]: Preparing spawn area: 16%
+[23:23:15] [Server-Worker-7/INFO]: Preparing spawn area: 17%
+[23:23:16] [Server-Worker-6/INFO]: Preparing spawn area: 19%
+[23:23:16] [Server-Worker-5/INFO]: Preparing spawn area: 20%
+[23:23:17] [Server-Worker-7/INFO]: Preparing spawn area: 21%
+[23:23:17] [Server-Worker-2/INFO]: Preparing spawn area: 22%
+[23:23:18] [Server-Worker-1/INFO]: Preparing spawn area: 23%
+[23:23:18] [Server-Worker-5/INFO]: Preparing spawn area: 24%
+[23:23:19] [Server-Worker-7/INFO]: Preparing spawn area: 24%
+[23:23:19] [Server-Worker-6/INFO]: Preparing spawn area: 26%
+[23:23:20] [Server-Worker-6/INFO]: Preparing spawn area: 27%
+[23:23:20] [Server-Worker-4/INFO]: Preparing spawn area: 28%
+[23:23:21] [Server-Worker-5/INFO]: Preparing spawn area: 30%
+[23:23:21] [Server-Worker-1/INFO]: Preparing spawn area: 30%
+[23:23:22] [Server-Worker-5/INFO]: Preparing spawn area: 31%
+[23:23:22] [Server-Worker-6/INFO]: Preparing spawn area: 31%
+[23:23:23] [Server-Worker-1/INFO]: Preparing spawn area: 31%
+[23:23:23] [Server-Worker-7/INFO]: Preparing spawn area: 31%
+[23:23:24] [Server-Worker-7/INFO]: Preparing spawn area: 31%
+[23:23:25] [Server-Worker-7/INFO]: Preparing spawn area: 31%
+[23:23:25] [Server-Worker-6/INFO]: Preparing spawn area: 31%
+[23:23:25] [Server-Worker-1/INFO]: Preparing spawn area: 35%
+[23:23:26] [Server-Worker-2/INFO]: Preparing spawn area: 36%
+[23:23:26] [Server-Worker-5/INFO]: Preparing spawn area: 38%
+[23:23:27] [Server-Worker-4/INFO]: Preparing spawn area: 38%
+[23:23:27] [Server-Worker-4/INFO]: Preparing spawn area: 39%
+[23:23:29] [Server-Worker-2/INFO]: Preparing spawn area: 40%
+[23:23:29] [Server-Worker-6/INFO]: Preparing spawn area: 40%
+[23:23:29] [Server-Worker-6/INFO]: Preparing spawn area: 40%
+[23:23:29] [Server-Worker-2/INFO]: Preparing spawn area: 43%
+[23:23:30] [Server-Worker-3/INFO]: Preparing spawn area: 45%
+[23:23:30] [Server-Worker-6/INFO]: Preparing spawn area: 45%
+[23:23:31] [Server-Worker-6/INFO]: Preparing spawn area: 46%
+[23:23:31] [Server-Worker-6/INFO]: Preparing spawn area: 48%
+[23:23:32] [Server-Worker-7/INFO]: Preparing spawn area: 48%
+[23:23:32] [Server-Worker-7/INFO]: Preparing spawn area: 49%
+[23:23:33] [Server-Worker-7/INFO]: Preparing spawn area: 51%
+[23:23:33] [Server-Worker-2/INFO]: Preparing spawn area: 51%
+[23:23:34] [Server-Worker-1/INFO]: Preparing spawn area: 52%
+[23:23:34] [Server-Worker-3/INFO]: Preparing spawn area: 53%
+[23:23:35] [Server-Worker-2/INFO]: Preparing spawn area: 54%
+[23:23:35] [Server-Worker-1/INFO]: Preparing spawn area: 55%
+[23:23:36] [Server-Worker-1/INFO]: Preparing spawn area: 56%
+[23:23:36] [Server-Worker-1/INFO]: Preparing spawn area: 57%
+[23:23:37] [Server-Worker-5/INFO]: Preparing spawn area: 59%
+[23:23:37] [Server-Worker-5/INFO]: Preparing spawn area: 59%
+[23:23:38] [Server-Worker-7/INFO]: Preparing spawn area: 60%
+[23:23:38] [Server-Worker-2/INFO]: Preparing spawn area: 61%
+[23:23:39] [Server-Worker-3/INFO]: Preparing spawn area: 62%
+[23:23:40] [Server-Worker-3/INFO]: Preparing spawn area: 63%
+[23:23:41] [Server-Worker-7/INFO]: Preparing spawn area: 63%
+[23:23:41] [Server-Worker-7/INFO]: Preparing spawn area: 63%
+[23:23:41] [Server-Worker-5/INFO]: Preparing spawn area: 63%
+[23:23:41] [Server-Worker-4/INFO]: Preparing spawn area: 63%
+[23:23:42] [Server-Worker-2/INFO]: Preparing spawn area: 68%
+[23:23:42] [Server-Worker-2/INFO]: Preparing spawn area: 69%
+[23:23:43] [Server-Worker-1/INFO]: Preparing spawn area: 70%
+[23:23:43] [Server-Worker-3/INFO]: Preparing spawn area: 71%
+[23:23:44] [Server-Worker-6/INFO]: Preparing spawn area: 73%
+[23:23:44] [Server-Worker-7/INFO]: Preparing spawn area: 74%
+[23:23:45] [Server-Worker-3/INFO]: Preparing spawn area: 75%
+[23:23:45] [Server-Worker-2/INFO]: Preparing spawn area: 76%
+[23:23:46] [Server-Worker-3/INFO]: Preparing spawn area: 78%
+[23:23:46] [Server-Worker-4/INFO]: Preparing spawn area: 79%
+[23:23:47] [Server-Worker-3/INFO]: Preparing spawn area: 80%
+[23:23:47] [Server-Worker-7/INFO]: Preparing spawn area: 81%
+[23:23:48] [Server-Worker-6/INFO]: Preparing spawn area: 82%
+[23:23:48] [Server-Worker-2/INFO]: Preparing spawn area: 83%
+[23:23:49] [Server-Worker-3/INFO]: Preparing spawn area: 84%
+[23:23:49] [Server-Worker-4/INFO]: Preparing spawn area: 84%
+[23:23:50] [Server-Worker-7/INFO]: Preparing spawn area: 86%
+[23:23:50] [Server-Worker-5/INFO]: Preparing spawn area: 86%
+[23:23:51] [Server-Worker-3/INFO]: Preparing spawn area: 87%
+[23:23:52] [Server-Worker-2/INFO]: Preparing spawn area: 88%
+[23:23:52] [Server-Worker-1/INFO]: Preparing spawn area: 90%
+[23:23:53] [Server-Worker-1/INFO]: Preparing spawn area: 90%
+[23:23:53] [Server-Worker-3/INFO]: Preparing spawn area: 90%
+[23:23:53] [Server-Worker-2/INFO]: Preparing spawn area: 94%
+[23:23:54] [Server-Worker-3/INFO]: Preparing spawn area: 96%
+[23:23:55] [Server-Worker-6/INFO]: Preparing spawn area: 97%
+[23:23:55] [Server-Worker-3/INFO]: Preparing spawn area: 97%
+[23:23:55] [Server-Worker-5/INFO]: Preparing spawn area: 99%
+[23:23:55] [Server thread/INFO]: Time elapsed: 49774 ms
+[23:23:55] [Server thread/INFO]: Done (66.332s)! For help, type "help"
+[23:23:55] [Server thread/INFO]: Stopping server
+[23:23:55] [Server thread/INFO]: Saving players
+[23:23:55] [Server thread/INFO]: Saving worlds
+[23:23:55] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_end
+[23:23:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:23:55] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_nether
+[23:23:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:23:55] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[23:24:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:24:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:24:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:24:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved

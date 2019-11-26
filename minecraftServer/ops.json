@@ -1,0 +1,14 @@
+[
+  {
+    "uuid": "a5ee442f-dd38-4686-b025-aad7414250a9",
+    "name": "SunOfAthena",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "88ff9cfc-ca63-4e9d-ad8a-4fa3a9f0c5a5",
+    "name": "Pizza_Guardian",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

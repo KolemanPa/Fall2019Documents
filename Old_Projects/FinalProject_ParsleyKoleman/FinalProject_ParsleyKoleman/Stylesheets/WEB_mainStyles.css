@@ -1,0 +1,187 @@
+@charset "utf-8";
+/* Main Stylesheet for CIS 130 final project
+
+Winter, Edmonds, and Boyd LLC  (WEB)
+Name: Koleman Parsley
+Date: 11/26/18
+*/
+/* Full page styles */
+/* the colors where inspired by canva pro color palates heres the link https://www.canva.com/learn/100-color-combinations/ */
+html {
+	background-color: #90AFC5;
+}
+
+article, aside, figcaption, figure,
+footer, header, main, nav, section { 
+   display: block;
+}
+	
+/* Body styles */
+body {
+	background-color: #ce7964;	
+	margin: 0px auto;
+	width: 100%;
+	max-width: 1020px;
+	min-width: 200px;
+	/* Border styles */
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+}
+
+body > header {
+	margin: 0;
+	padding: 0px;
+	width: 100%;
+}
+/* header img style */
+body > img {
+	width: 90%;
+	margin: auto;
+}
+h1 {
+	text-align: center;
+	margin: auto;
+}
+body > header > img {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+/* paragraph styles  and class elements*/
+
+article p {
+   margin: 12px;
+   font-size: 1.3em;
+}
+.divider {
+	color: #90AFC5;
+	margin: auto;
+	text-align: center;
+}
+
+.welcome {
+	margin: auto;
+	text-align: center;
+}
+
+.meetingPic {
+	float: left;
+	padding: 0 15px;
+	margin: 12px;
+	}
+	
+.Charity {
+	float: right;
+	padding: 0 15px;
+	margin: 12px;
+}
+#buttons {
+	float: left;
+}
+.partners {
+	float: left;
+	padding: 0 15px;
+	margin: 12px;
+}
+.clearfix {
+    overflow: auto;
+    border: 3px solid #2A3132;
+    padding: 5px;
+	}
+
+/* Input styles for inquiry page */
+label {
+   display: block;
+   float: left;
+   clear: left;
+   margin: 5px;
+   width: 200px;
+}
+
+input, select, textarea {
+   display: block;
+   float: left;
+   margin: 5px 0px;
+   width: 200px;
+}
+
+textarea {
+   height: 100px;
+}
+input[type='submit'] {
+   background-color: rgb(144, 170, 144);
+   color: rgb(245,245,165);
+   border-radius: 20px;
+   float: none;
+   display: inline;
+   font-size: 1.1em;
+   height: 30px;
+   width: 150px;
+}
+
+/* code inspired from HTML 07 Case 1 stylesheets */
+
+
+input, select, textarea {
+   display: block;
+   float: left;
+   margin: 5px 0px;
+   width: 200px;
+}
+
+textarea {
+   height: 100px;
+}
+
+body {
+   flex-flow: row wrap;    
+   margin: 0px auto;
+   min-width: 320px;
+   max-width: 1020px;  
+   width: 100%;
+}
+
+/* Footer styles */   
+
+footer {
+   border-top: 1px solid rgba(255, 255, 255, 0.4);
+   clear: left;
+   text-align: right;
+   width: 100%;
+}
+
+footer, footer span a {
+   padding: 10px;
+   color: rgba(51, 51, 51, 0.7);
+}
+
+/* I was having a ton of trouble with mobile styles, its something ill have to learn..... i tried my best though :0 */
+/* Mobile Styles: 0px to 640px */
+@media only screen and (max-width: 640px) {
+
+   section h1 {
+      font-size: 1.5em;
+   }
+   
+   section p {
+      font-size: 0.9em;
+   }
+   
+   nav {
+      -webkit-order: 99;
+      order: 99;
+   }
+   
+   footer {
+      -webkit-order: 100;
+      order: 100;
+   }
+}
+
+/* tablet screen */
+@media only screen and (min-width: 641px) {
+
+
+}
+

@@ -1,0 +1,152 @@
+@charset "utf-8";
+
+/* Main Stylesheet for CIS 130 final project
+
+Winter, Edmonds, and Boyd LLC  (WEB)
+Name: Koleman Parsley
+Date: 11/26/18
+*/
+/* Full page styles */
+/* the colors where inspired by canva pro color palates heres the link https://www.canva.com/learn/100-color-combinations/ */
+html {
+  background-color: #a1c9dd;
+}
+
+article, aside, figcaption, figure,
+footer, header, main, nav, section {
+  display: block;
+}
+
+/* Body styles */
+map {
+  display: inline;
+}
+
+body {
+  background-color: #E9E9E9;
+  margin: 0px auto;
+  width: 100%;
+  max-width: 1020px;
+  min-width: 200px;
+  /* Border styles */
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+}
+
+body>header {
+  margin: 0;
+  padding: 0px;
+  width: 100%;
+}
+
+.welcomeDivider {
+  border-bottom: dashed;
+  padding-bottom: 8px;
+  border-color: gray;
+}
+
+.KarenParsley {
+  float: right;
+  margin-right: 15px;
+  margin-left: 20px;
+  margin-top: 25px;
+  right: 0px;
+  width: 25%;
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+}
+
+.Photos {
+  width: 32%;
+  margin: 0 auto;
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+}
+
+.PhotosWide {
+  width: 48%;
+  margin: 0 auto;
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+}
+
+/* header img style */
+body>img {
+  width: 90%;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  margin: auto;
+}
+
+body>header>img {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+/* paragraph styles  and class elements*/
+article p {
+  margin: 12px;
+  font-size: 1.3em;
+}
+
+.divider {
+  color: #90AFC5;
+  margin: auto;
+  text-align: center;
+}
+
+.welcome {
+  margin: auto;
+  text-align: center;
+}
+
+.clearfix {
+  margin: 0 auto;
+  overflow: auto;
+  padding: 5px;
+}
+
+/* Footer styles */
+footer {
+  border-top: 1px solid #a6a6a6;
+  clear: left;
+  text-align: right;
+  width: 100%;
+}
+
+footer, footer span a {
+  color: gray;
+}
+
+/* I was having a ton of trouble with mobile styles, its something ill have to learn..... i tried my best though :0 */
+/* Mobile Styles: 0px to 640px */
+@media only screen and (max-width: 640px) {
+  section h1 {
+    font-size: 1.5em;
+  }
+
+  section p {
+    font-size: 0.9em;
+  }
+
+  nav {
+    -webkit-order: 99;
+    order: 99;
+  }
+
+  footer {
+    -webkit-order: 100;
+    order: 100;
+  }
+}
+
+/* tablet screen */
+@media only screen and (min-width: 641px) {}
